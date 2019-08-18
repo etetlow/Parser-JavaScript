@@ -6106,14 +6106,14 @@ exports.ANDROID_MODELS = {
 
   'Huawei MediaPad': ['Huawei', 'MediaPad', DeviceType.TABLET],
   'Huawei OsiMood MediaPad': ['Huawei', 'MediaPad', DeviceType.TABLET],
-  'HUAWEI MediaPad M1 8.0': ['Huawei', 'MediaPad M1 8', DeviceType.TABLET],
-  'Huawei MediaPad T1 7.0 3G': ['Huawei', 'MediaPad T1 7', DeviceType.TABLET],
-  'Huawei MediaPad T1 8.0 4G': ['Huawei', 'MediaPad T1 8 4G', DeviceType.TABLET],
-  'Huawei MediaPad T1 10 4G': ['Huawei', 'MediaPad T1 10 4G', DeviceType.TABLET],
+  'HUAWEI MediaPad M1 8.0': ['Huawei', 'MediaPad M1', DeviceType.TABLET],
+  'Huawei MediaPad T1 7.0 3G': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+  'Huawei MediaPad T1 8.0 4G': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+  'Huawei MediaPad T1 10 4G': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
 
   'MediaPad!!': {
     MediaPad: ['Huawei', 'MediaPad', DeviceType.TABLET],
-    'MediaPad 7 FHD': ['Huawei', 'MediaPad 7 FHD', DeviceType.TABLET],
+    'MediaPad 7 FHD': ['Huawei', 'MediaPad 7', DeviceType.TABLET],
     'MediaPad 7 Classic': ['Huawei', 'MediaPad 7 Classic', DeviceType.TABLET],
     'MediaPad 7 Lite': ['Huawei', 'MediaPad 7 Lite', DeviceType.TABLET],
     'MediaPad 7 Lite+': ['Huawei', 'MediaPad 7 Lite+', DeviceType.TABLET],
@@ -6125,19 +6125,19 @@ exports.ANDROID_MODELS = {
     'MediaPad 7 Youth2': ['Huawei', 'MediaPad 7 Youth 2', DeviceType.TABLET],
     'MediaPad 7 Youth 2': ['Huawei', 'MediaPad 7 Youth 2', DeviceType.TABLET],
     'MediaPad 8 Vogue': ['Huawei', 'MediaPad 8 Vogue', DeviceType.TABLET],
-    'MediaPad 10 FHD': ['Huawei', 'MediaPad 10 FHD', DeviceType.TABLET],
+    'MediaPad 10 FHD': ['Huawei', 'MediaPad 10', DeviceType.TABLET],
     'MediaPad 10 LINK': ['Huawei', 'MediaPad 10 Link', DeviceType.TABLET],
-    'MediaPad 10 Link+': ['Huawei', 'MediaPad 10 Link+', DeviceType.TABLET],
-    'MediaPad M1 8.0': ['Huawei', 'MediaPad M1 8', DeviceType.TABLET],
-    'MediaPad M1 8.0 (LTE)': ['Huawei', 'MediaPad M1 8 LTE', DeviceType.TABLET],
-    'MediaPad M1 8.0 (WIFI)': ['Huawei', 'MediaPad M1 8 WiFi', DeviceType.TABLET],
-    'MediaPad T1 8.0': ['Huawei', 'MediaPad T1 8', DeviceType.TABLET],
-    'MediaPad T1 8.0 LTE': ['Huawei', 'MediaPad T1 8 LTE', DeviceType.TABLET],
-    'MediaPad T1 8.0 Pro': ['Huawei', 'MediaPad T1 8 Pro', DeviceType.TABLET],
-    'MediaPad X1 7.0': ['Huawei', 'MediaPad X1 7', DeviceType.TABLET],
+    'MediaPad 10 Link+': ['Huawei', 'MediaPad 10 Link', DeviceType.TABLET],
+    'MediaPad M1 8.0': ['Huawei', 'MediaPad M1', DeviceType.TABLET],
+    'MediaPad M1 8.0 (LTE)': ['Huawei', 'MediaPad M1', DeviceType.TABLET],
+    'MediaPad M1 8.0 (WIFI)': ['Huawei', 'MediaPad M1', DeviceType.TABLET],
+    'MediaPad T1 8.0': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'MediaPad T1 8.0 LTE': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'MediaPad T1 8.0 Pro': ['Huawei', 'MediaPad T1 Pro', DeviceType.TABLET],
+    'MediaPad X1 7.0': ['Huawei', 'MediaPad X1', DeviceType.TABLET],
     'MediaPad X1': ['Huawei', 'MediaPad X1', DeviceType.TABLET],
     'MediaPad 7D': ['Huawei', 'MediaPad X1', DeviceType.TABLET],
-    'MediaPad X1 S 7.0': ['Huawei', 'MediaPad X1 S 7', DeviceType.TABLET]
+    'MediaPad X1 S 7.0': ['Huawei', 'MediaPad X1 S', DeviceType.TABLET]
   },
 
   '(Huawei )?[MSTX](1|2|7|8|10)-[A-Z0-9][0-9]{2,2}!!': {
@@ -6153,41 +6153,41 @@ exports.ANDROID_MODELS = {
     'HUAWEI M2-801W': ['Huawei', 'MediaPad M2', DeviceType.TABLET],
     'Huawei M2-802L': ['Huawei', 'MediaPad M2', DeviceType.TABLET],
     'HUAWEI M2-803L': ['Huawei', 'MediaPad M2', DeviceType.TABLET],
-    'T1-A21[LW]': ['Huawei', 'MediaPad T1 10', DeviceType.TABLET],
+    'S8-701u': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'T1-A21L': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'T1-A21w': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
     'T1-A22L': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
     'T1-A23L': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
-    'T1-701([UA]{1,2}|W)': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
-    'T1-821[LW]': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'T1-701u': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'T1-701ua': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'T1-701w': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'T1-821w': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'T1-821L': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
     'T1-823L': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
-    'S8-701[UW]': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
+    'S8-701w': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
     'S8-821w': ['Huawei', 'MediaPad T1', DeviceType.TABLET]
   },
 
   'T1 7.0': ['Huawei', 'MediaPad T1', DeviceType.TABLET],
   'X1 7.0': ['Huawei', 'MediaPad X1', DeviceType.TABLET],
   '7D-501u': ['Huawei', 'MediaPad X1', DeviceType.TABLET],
-  'GEM-702L': ['Huawei', 'MediaPad X2 Elite', DeviceType.TABLET],
+  'GEM-702L': ['Huawei', 'MediaPad X2', DeviceType.TABLET],
   'GEM-703L': ['Huawei', 'MediaPad X2', DeviceType.TABLET],
-  'PLE-70[13]L': ['Huawei', 'MediaPad T2 7 Pro', DeviceType.TABLET],
-  'FDR-A01[Lw]': ['Huawei', 'MediaPad T2 10 Pro', DeviceType.TABLET],
-  'BGO-(DL09|L03)!': ['Huawei', 'MediaPad T2 7', DeviceType.TABLET],
-  'KOB-(L09|W09)|BG2-U01!': ['Huawei', 'MediaPad T3 8', DeviceType.TABLET],
-  'AGS-L0[39]!': ['Huawei', 'MediaPad T3 10 3G', DeviceType.TABLET],
-  'AGS-W09!': ['Huawei', 'MediaPad T3 10 WiFi', DeviceType.TABLET],
-  'BG2-U03!': ['Huawei', 'MediaPad T3 7 3G', DeviceType.TABLET],
-  'AGS2-LW[09]!': ['Huawei', 'MediaPad T5 10', DeviceType.TABLET],
+  'HUAWEI GEM-703L': ['Huawei', 'MediaPad X2', DeviceType.TABLET],
+  'PLE-701L': ['Huawei', 'MediaPad T2', DeviceType.TABLET],
+  'PLE-703L': ['Huawei', 'MediaPad T2', DeviceType.TABLET],
+  'FDR-A01w': ['Huawei', 'MediaPad T2', DeviceType.TABLET],
+  'BGO-(DL09|L03)!': ['Huawei', 'MediaPad T2', DeviceType.TABLET],
+  'KOB-(L09|W09)!': ['Huawei', 'MediaPad T3', DeviceType.TABLET],
+  'AGS-(L09|W09)!': ['Huawei', 'MediaPad T3', DeviceType.TABLET],
+  'BG2-(U01)!': ['Huawei', 'MediaPad T3', DeviceType.TABLET],
   'BTV-(DL09|W09)!': ['Huawei', 'MediaPad M3', DeviceType.TABLET],
   'CPN-(W09|AL00|L09)!': ['Huawei', 'MediaPad M3 Lite', DeviceType.TABLET],
   'BAH-(W09|AL00|L09)!': ['Huawei', 'MediaPad M3 Lite', DeviceType.TABLET],
-  'JDN-W09': ['Huawei', 'Honor Pad 2', DeviceType.TABLET],
-  'JDN2-(W09|AL00)!': ['Huawei', 'MediaPad M5 Lite 8', DeviceType.TABLET],
-  'SHT-(W|AL)09!': ['Huawei', 'MediaPad M5 8', DeviceType.TABLET],
-  'CMR-AL09!': ['Huawei', 'MediaPad M5 10 4G', DeviceType.TABLET],
-  'CMR-W09|AGS2-W[01]9!': ['Huawei', 'MediaPad M5 10 WiFi', DeviceType.TABLET],
-  'BAH2-L09!': ['Huawei', 'MediaPad M5 Lite', DeviceType.TABLET],
-  'SCM-(W|AL)09!': ['Huawei', 'MediaPad M6 10', DeviceType.TABLET],
 
-  '(HUAWEI )?(ALP|BLA|CRR|LON|MATE|MHA|MT1|MT2|MT7|M200|NXT|Z100|SPN)!!': {
+  'JDN-W09': ['Huawei', 'Honor Pad 2', DeviceType.TABLET],
+
+  '(HUAWEI )?(ALP|BLA|CRR|LON|MATE|MHA|MT1|MT2|MT7|M200|NXT|Z100)!!': {
     '(HW-|HUAWEI )?MT1-(T00|U06)!': ['Huawei', 'Ascend Mate'],
     '(HW-|HUAWEI )?MATE-U06!': ['Huawei', 'Ascend Mate'],
     '(HW-|HUAWEI )?MT2-?(C00|L01|L02|L03|L05)!': ['Huawei', 'Ascend Mate 2'],
@@ -6199,23 +6199,20 @@ exports.ANDROID_MODELS = {
     '(HW-|HUAWEI )?LON-(AL00|L29)!': ['Huawei', 'Mate 9 Pro'],
     '(HW-|HUAWEI )?ALP-(AL00|L09|L29|TL00)!': ['Huawei', 'Mate 10'],
     '(HW-|HUAWEI )?BLA-(A09|AL00|L09|L29|L30|TL00)!': ['Huawei', 'Mate 10 Pro'],
-    '(HW-|HUAWEI )?CRR-(L09|CL00|CL20|TL00|UL00|UL20)!': ['Huawei', 'Mate S'],
-    '(HW-|HUAWEI )?SPN-AL00!': ['Huawei', 'Mate 30 Lite']
+    '(HW-|HUAWEI )?CRR-(L09|CL00|CL20|TL00|UL00|UL20)!': ['Huawei', 'Mate S']
   },
 
-  '(HW-|HUAWEI )?(DRA|FLA|TIT|TAG|NCE|TRT|SLA|MRD|POT)!!': {
+  '(HW-|HUAWEI )?(DRA|FLA|TIT|TAG|NCE|TRT|SLA)!!': {
     '(HW-|HUAWEI )?TIT-(AL00|CL00|CL10|L01|TL00|U02)!': ['Huawei', 'Enjoy 5'],
     '(HW-|HUAWEI )?TAG-(AL00|CL00|L13|TL00)!': ['Huawei', 'Enjoy 5S'],
     '(HW-|HUAWEI )?NCE-(AL00|AL10|TL10)!': ['Huawei', 'Enjoy 6'],
     '(HW-|HUAWEI )?SLA-(AL00|L02|L03|L22|TL10)!': ['Huawei', 'Enjoy 7'],
     '(HW-|HUAWEI )?TRT-(AL00|L21|L53|LX1|LX2|LX3|TL10)!': ['Huawei', 'Enjoy 7 Plus'],
     '(HW-|HUAWEI )?FLA-(AL10|AL20|LX1|LX2|LX3|TL10)!': ['Huawei', 'Enjoy 8 Plus'],
-    '(HW-|HUAWEI )?DRA-(AL00|L01|L21|LX2)!': ['Huawei', 'Enjoy 8e'],
-    '(HW-|HUAWEI )?MRD-AL00!': ['Huawei', 'Enjoy 9e'],
-    '(HW-|HUAWEI )?POT-AL00!': ['Huawei', 'Enjoy 9s']
+    '(HW-|HUAWEI )?DRA-(AL00|L01|L21|LX2)!': ['Huawei', 'Enjoy 8e']
   },
 
-  '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BND|CHE|CHM|COL|DUA|DUK|DLI|EDI|FRD|HN3|H30|H60|HLK|HOL|HRY|JAT|JMM|JDN2|KIW|KS[AE]|LLD|NEM|NMO|PE|PLK|RNE|SCL|KNT|CAM|STF|HDN|YAL)!!': {
+  '(HW-|HUAWEI |HONOR )?(ATH|BLN|BKL|BND|CHE|CHM|COL|DUA|DUK|DLI|EDI|FRD|HN3|HRY|H30|H60|HOL|JMM|KIW|LLD|NEM|NMO|PE|PLK|RNE|SCL|KNT|CAM|STF|HDN|YAL)!!': {
     'H30 U10': ['Huawei', 'Honor 3C'],
     '(HW-|HUAWEI )?HN3-(U00|U01)!': ['Huawei', 'Honor 3'],
     '(HW-|HUAWEI |HONOR )?H30[- ](C00|L01|L02|T00|T10|U10)!': ['Huawei', 'Honor 3C'],
@@ -6240,25 +6237,20 @@ exports.ANDROID_MODELS = {
     '(HW-|HUAWEI )?BND-(AL00|AL10|L21|L24|L31|L34|TL10)!': ['Huawei', 'Honor 7X'],
     '(HW-|HUAWEI )?DUA-(AL00)!': ['Huawei', 'Honor 7 Play'],
     '(HW-|HUAWEI )?FRD-(AL00|AL10|DL00|L02|L04|L09|L14|L19)!': ['Huawei', 'Honor 8'],
-    '(HW-|HUAWEI )?JAT-LX1!': ['Huawei', 'Honor 8A'],
-    '(HW-|HUAWEI )?KS[AE]-LX9!': ['Huawei', 'Honor 8S'],
     '(HW-|HUAWEI )?ATH-(UL01|UL06)!': ['Huawei', 'Honor ShotX'],
     '(HW-|HUAWEI )?KNT-(AL10|AL20|TL10|UL10)!': ['Huawei', 'Honor V8'],
     '(HW-|HUAWEI )?EDI-(AL10)!': ['Huawei', 'Honor Note 8'],
     '(HW-|HUAWEI )?STF-(AL00|AL10|L09|TL10)!': ['Huawei', 'Honor 9'],
     '(HW-|HUAWEI )?LLD-(AL00|AL10|AL20|L21|L31)!': ['Huawei', 'Honor 9 Lite'],
     '(HW-|HUAWEI )?RNE-(AL00|L01|L02|L03|L21|L22|L23|L31)!': ['Huawei', 'Honor 9i'],
-    '(HW-|HUAWEI )?HLK-[AT]L00!': ['Huawei', 'Honor 9x Pro'],
     '(HW-|HUAWEI )?COL-(AL00|AL10|L29|TL00|TL10)!': ['Huawei', 'Honor 10'],
-    '(HW-|HUAWEI )?HRY-LX1T!': ['Huawei', 'Honor 10i'],
     '(HW-|HUAWEI )?DUK-(AL20|L09|TL30)!': ['Huawei', 'Honor V9'],
     '(HW-|HUAWEI )?JMM-(AL00|AL10|L22|L22HN|TL00)!': ['Huawei', 'Honor V9 Play'],
     '(HW-|HUAWEI )?BKL-(AL00|AL20|L04|L09)!': ['Huawei', 'Honor V10'],
-    '(HW-|HUAWEI )?YAL-(L21|AL00)!': ['Huawei', 'Honor 20'],
+    '(HW-|HUAWEI )?YAL-(L21|AL00)!': ['Huawei', 'Honor 20 '],
     '(HW-|HUAWEI )?HRY-AL00Ta!': ['Huawei', 'Honor 20i'],
     '(HW-|HUAWEI )?YAL-L41!': ['Huawei', 'Honor 20 Pro'],
-    '(HW-|HUAWEI )?HDN-(L09|W09)!': ['Huawei', 'Honor WaterPlay', DeviceType.TABLET],
-    '(HW-|HUAWEI )?JDN2-(W09|AL00)HN!': ['Huawei', 'Honor Tab 5', DeviceType.TABLET]
+    '(HW-|HUAWEI )?HDN-(L09|W09)!': ['Huawei', 'Honor WaterPlay', DeviceType.TABLET]
   },
 
   '(HW-|HUAWEI )?(BLL|CHC|TAG|KII)!!': {
@@ -6268,7 +6260,7 @@ exports.ANDROID_MODELS = {
     '(HW-|HUAWEI )?BLL-(L21|L22|L23)!': ['Huawei', 'GR5 (2017)']
   },
 
-  '(HW-|HUAWEI )?(ALE|ANE|D2|DAV|ELE|EML|EVA|FIG|G6|G7|GRA|MAR|M100|P2|P6|P7|PRA|RIO|SC|Sophia|VIE|VOG|VKY|VNS|VTR|WAS)!!': {
+  '(HW-|HUAWEI )?(ALE|ANE|D2|DAV|EML|EVA|FIG|G6|G7|GRA|M100|P2|P6|P7|PRA|RIO|SC|Sophia|VIE|VKY|VNS|VTR|WAS)!!': {
     'HUAWEI D2': ['Huawei', 'Ascend D2'],
     '(HW-|HUAWEI )?D2-(0082|2010|5000|6070|6114)!': ['Huawei', 'Ascend D2'],
     '(HW-|HUAWEI )?G6-(C00|L11|L22|L33|T00|U00|U10|U34|U251)!': ['Huawei', 'Ascend G6'],
@@ -6294,28 +6286,22 @@ exports.ANDROID_MODELS = {
     '(HW-|HUAWEI )?VKY-?(AL00|L09|L29|TL00)!': ['Huawei', 'P10 Plus'],
     '(HW-|HUAWEI )?FIG-?(AL00|AL10|LA1|LX1|LX3|TL00)!': ['Huawei', 'P Smart'],
     '(HW-|HUAWEI )?EML-?(AL00|L09|L29|TL00)!': ['Huawei', 'P20'],
-    '(HW-|HUAWEI )?ANE-?(AL00|L21|LX1|LX2|LX2J|LX3)!': ['Huawei', 'P20 Lite'],
-    '(HW-|HUAWEI )?ELE-(AL00|L[02]9)!': ['Huawei', 'P30'],
-    '(HW-|HUAWEI )?MAR-LX(1M|2J)!': ['Huawei', 'P30 Lite'],
-    '(HW-|HUAWEI )?VOG-(AL[01]0|L[02]9|TL00)!': ['Huawei', 'P30 Pro']
+    '(HW-|HUAWEI )?ANE-?(AL00|L21|LX1|LX2|LX2J|LX3)!': ['Huawei', 'P20 lite']
   },
 
   'Rock-(AL00|CL00|L01|L03)!': ['Huawei', 'Ascend G7'],
   'HUAWEI A168-(AL10|DL09|L09|L29)!': ['Huawei', 'P9'],
 
-  '(HW-|HUAWEI )?(AMN|CRO|DUB|LTK|LUA|CUN|SCC|SCU|STK|CAM|LDN|LYO|MYA)!!': {
+  '(HW-|HUAWEI )?(CRO|LUA|CUN|SCC|SCU|CAM|LDN|LYO|MYA)!!': {
     '(HW-|HUAWEI )?CRO-(L02|L03|L22|U00)!': ['Huawei', 'Y3 (2017)'],
     '(HW-|HUAWEI )?LUA-(L01|L02|L03|L13|L21|L22|L23|U02|U03|U22|U23)!': ['Huawei', 'Y3 II'],
     '(HW-|HUAWEI )?CUN-(AL00|L01|L02|L03|L21|L22|L23|L33|TL00|U29)!': ['Huawei', 'Y5 II'],
     '(HW-|HUAWEI )?MYA-(AL10|L02|L03|L11|L13|L22|L23|L41|TL10)!': ['Huawei', 'Y5 (2017)'],
-    '(HW-|HUAWEI )?AMN-LX[1-39]!': ['Huawei', 'Y5 (2019)'],
     '(HW-|HUAWEI )?SCC-(U21)!': ['Huawei', 'Y6'],
     '(HW-|HUAWEI )?SCU-(U31)!': ['Huawei', 'Y6C'],
     '(HW-|HUAWEI )?CAM-(L01|L03|L11|L21|L23|L32|AL00|CL00|TL00|UL00)!': ['Huawei', 'Y6 II'],
     '(HW-|HUAWEI )?LYO-(L01|L02|L21)!': ['Huawei', 'Y6 II Compact'],
-    '(HW-|HUAWEI )?LDN-(AL00|L01|L21|LX2|LX3|TL00)!': ['Huawei', 'Y7 Prime (2018)'],
-    '(HW-|HUAWEI )?DUB-LX[1-3]!': ['Huawei', 'Y7 (2019)'],
-    '(HW-|HUAWEI )?STK-L2[12]|LTK-LX3!': ['Huawei', 'Y9 Prime (2019)']
+    '(HW-|HUAWEI )?LDN-(AL00|L01|L21|LX2|LX3|TL00)!': ['Huawei', 'Y7 Prime (2018)']
   },
 
   '(HW-|HUAWEI )?CAZ-(AL10|TL10|TL20)!': ['Huawei', 'Nova'],
@@ -6324,13 +6310,7 @@ exports.ANDROID_MODELS = {
   '(HW-|HUAWEI )?DIG-(AL00|L01|L03|L21|TL10)!': ['Huawei', 'Nova Smart'],
   '(HW-|HUAWEI )?BAC-(AL00|L03|L21|L22|TL00)!': ['Huawei', 'Nova 2 Plus'],
   '(HW-|HUAWEI )?HWI-(AL00|TL00)!': ['Huawei', 'Nova 2S'],
-  '(HW-|HUAWEI )?MAR-[AT]L00!': ['Huawei', 'Nova 4e'],
-  '(HW-|HUAWEI )?SEA-AL10!': ['Huawei', 'Nova 5 Pro'],
-  '(HW-|HUAWEI )?GLK-LX[1-3]!': ['Huawei', 'Nova 5i'],
-  '(HW-|HUAWEI )?SPN-[AT]L00!': ['Huawei', 'Nova 5i Pro'],
-  '(HW-|HUAWEI )?POT-LX2!': ['Huawei', 'Nova Lite 3'],
   '(HW-|HUAWEI )?MLA-(AL00|AL10)!': ['Huawei', 'Maimang 5'],
-  '(HW-|HUAWEI )?POT-AL00!': ['Huawei', 'Maimang 8'],
   '(HW-|HUAWEI )?MLA-(TL00|TL10|UL00)!': ['Huawei', 'G9 Plus'],
 
   'Huawei P7 mini': ['Huawei', 'Ascend P7 mini'],

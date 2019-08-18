@@ -25,7 +25,7 @@ types.forEach((type) => {
   const filepath = path.join(__dirname, `../data/applications-${type.name.toLowerCase()}.js`);
   const fileStream = fs.createWriteStream(filepath);
   request(
-    `https://raw.githubusercontent.com/WhichBrowser/Parser/master/data/applications-${type.name.toLowerCase()}.php`,
+    `https://raw.githubusercontent.com/etetlow/Parser-PHP/master/data/applications-${type.name.toLowerCase()}.php`,
     (err, response = {}) => {
       if (err) {
         return;

@@ -74,7 +74,7 @@ function updateIndecesFromWeb(type) {
   const filepath = path.join(__dirname, `../data/indices/models-${type}.js`);
   const fileStream = fs.createWriteStream(filepath);
   request(
-    `https://raw.githubusercontent.com/WhichBrowser/Parser/master/data/indices/models-${type}.php`,
+    `https://raw.githubusercontent.com/etetlow/Parser-PHP/master/data/indices/models-${type}.php`,
     (err, response = {}) => {
       if (err) {
         return;
@@ -105,6 +105,9 @@ function updateIndecesFromWeb(type) {
  * @param {object} obj
  * @return {object}
  */
-const ksort = (obj) => Object.keys(obj).sort().reduce((acc, val) => Object.assign(acc, {[val]: obj[val]}), {});
+const ksort = (obj) =>
+  Object.keys(obj)
+    .sort()
+    .reduce((acc, val) => Object.assign(acc, {[val]: obj[val]}), {});
 
 types.forEach(useWeb ? updateIndecesFromWeb : updateIndeces);
